@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34701.34
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{636ABF0F-675D-4748-9AEE-DFBB63B6BBF5}"
+	ProjectSection(SolutionItems) = preProject
+		CHANGELOG.md = CHANGELOG.md
+		gitguardian.yml = gitguardian.yml
+		Omni-Auth0.ndproj = Omni-Auth0.ndproj
+		package-lock.json = package-lock.json
+		package.json = package.json
+		README.md = README.md
+		version.json = version.json
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OmniAuth0", "Omni-Auth0\OmniAuth0.csproj", "{F11DD73A-BE41-4C5A-8911-17D320E02154}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F11DD73A-BE41-4C5A-8911-17D320E02154}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F11DD73A-BE41-4C5A-8911-17D320E02154}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F11DD73A-BE41-4C5A-8911-17D320E02154}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F11DD73A-BE41-4C5A-8911-17D320E02154}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D51C27C2-3F4A-467A-9148-873D059D6443}
+	EndGlobalSection
+EndGlobal

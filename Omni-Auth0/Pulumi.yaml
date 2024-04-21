@@ -1,0 +1,7 @@
+name: Omni-Auth0
+runtime: dotnet
+description: Omni Auth0 Resources
+config:
+  pulumi:tags:
+    value:
+      pulumi:template: ""
